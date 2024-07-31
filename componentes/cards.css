@@ -1,0 +1,376 @@
+div.card{
+    display: inline-block;
+    width: 250px;
+    background-color: var(--fondo);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 25px;
+}
+
+.card__icono{
+    padding: 10px 10px 5px 10px;
+    color: var(--rosado);
+    cursor: pointer;
+}
+.card__separador{
+    border: none;
+    height: 1px;
+    background-color: var(--rosado);
+}
+.card__imagen{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.card__titulo{
+padding: 0 10px 10px 10px;
+color: var(--azul);
+font-size: 26px;
+}
+.card__texto{
+padding: 0 10px 10px 10px;
+font-size: 16px;
+}
+.card__boton{
+margin: 0 10px 10px 100px;
+background-color: var(--boton);
+width: 130px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+border-radius: 25px;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+}
+.card__boton:hover{
+    filter: drop-shadow(0px 0px 5px var(--boton));
+}
+
+
+div.card--modificacion1{
+    display: inline-block;
+    width: 250px;
+    background-color: var(--negro);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 25px;
+}
+.icono--modificacion1{
+    padding: 10px 10px 5px 10px;
+    color: var(--blanco);
+    cursor: pointer;
+}
+.separador--modificacion1{
+    border: none;
+    height: 1px;
+    background-color: var(--blanco);
+}
+.imagen--modificacion1{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 0px 3px var(--blanco));
+}
+.titulo--modificacion1{
+padding: 0 10px 10px 10px;
+color: var(--blanco);
+font-size: 26px;
+}
+.texto--modificacion1{
+padding: 0 10px 10px 10px;
+font-size: 16px;
+color: var(--blanco);
+}
+.boton--modificacion1{
+margin: 0 10px 10px 100px;
+background-color: var(--blanco);
+width: 130px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+border-radius: 25px;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+}
+.boton--modificacion1:hover{
+    filter: drop-shadow(0px 0px 5px var(--blanco));
+}
+
+
+div.card--modificacion2{
+    display: inline-block;
+    width: 250px;
+    background-color: var(--blanco);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 5px var(--negro));
+}
+.icono--modificacion2{
+    padding: 10px 10px 5px 10px;
+    color: var(--negro);
+    cursor: pointer;
+}
+.separador--modificacion2{
+    border: none;
+    height: 1px;
+    background-color: var(--negro);
+}
+.imagen--modificacion2{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 0px 3px var(--negro));
+}
+.titulo--modificacion2{
+padding: 0 10px 10px 10px;
+color: var(--negro);
+font-size: 26px;
+}
+.texto--modificacion2{
+padding: 0 10px 10px 10px;
+font-size: 16px;
+color: var(--negro);
+}
+.boton--modificacion2{
+margin: 0 10px 10px 100px;
+background-color: var(--negro);
+color: var(--blanco);
+width: 130px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+border-radius: 25px;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+}
+.boton--modificacion2:hover{
+    filter: drop-shadow(0px 0px 5px var(--negro));
+}
+
+
+div.card--modificacion3{
+    display: inline-block;
+    width: 250px;
+    background-color: var(--blanco);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 5px var(--negro));
+}
+.icono--modificacion3{
+    padding: 10px 10px 5px 10px;
+    color: var(--negro);
+    cursor: pointer;
+}
+.separador--modificacion3{
+    border: none;
+    height: 1px;
+    background-color: var(--negro);
+}
+.imagen--modificacion3{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 0px 3px var(--negro));
+}
+.titulo--modificacion3{
+padding: 0 10px 10px 10px;
+color: var(--negro);
+font-size: 26px;
+}
+.texto--modificacion3{
+padding: 0 10px 10px 10px;
+font-size: 16px;
+color: var(--negro);
+}
+.boton--modificacion3{
+margin: 0 10px 10px 100px;
+background-color: var(--negro);
+color: var(--blanco);
+width: 130px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+border-radius: 25px;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+}
+.boton--modificacion3:hover{
+    filter: drop-shadow(0px 0px 5px var(--negro));
+}
+div.card--modificacion3:hover{
+    transition: 0.s;
+    display: inline-block;
+    width: 240px;
+    background-color: var(--negro);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 5px var(--negro));
+    .icono--modificacion3{
+        padding: 10px 10px 5px 10px;
+        color: var(--blanco);
+        cursor: pointer;
+    }
+    .separador--modificacion3{
+        border: none;
+        height: 1px;
+        background-color: var(--blanco);
+    }
+    .imagen--modificacion3{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        filter: drop-shadow(0px 0px 3px var(--blanco));
+    }
+    .titulo--modificacion3{
+    padding: 0 10px 10px 10px;
+    color: var(--blanco);
+    font-size: 26px;
+    }
+    .texto--modificacion3{
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+    color: var(--blanco);
+    }
+    .boton--modificacion3{
+    background-color: var(--blanco);
+    transition: 0.5s;
+    margin: 0 100px 10px 10px;
+    color: var(--negro);
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    .boton--modificacion3:hover{
+        filter: drop-shadow(0px 0px 5px var(--blanco));
+    }
+}
+
+
+div.card--modificacion4{
+    display: inline-block;
+    width: 250px;
+    background-color: var(--negro);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 5px var(--negro));
+}
+.icono--modificacion4{
+    padding: 10px 10px 5px 10px;
+    color: var(--blanco);
+    cursor: pointer;
+}
+.separador--modificacion4{
+    border: none;
+    height: 1px;
+    background-color: var(--blanco);
+}
+.imagen--modificacion4{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    filter: drop-shadow(0px 0px 3px var(--blanco));
+}
+.titulo--modificacion4{
+padding: 0 10px 10px 10px;
+color: var(--blanco);
+font-size: 26px;
+}
+.texto--modificacion4{
+padding: 0 10px 10px 10px;
+font-size: 16px;
+color: var(--blanco);
+}
+.boton--modificacion4{
+margin: 0 10px 10px 100px;
+background-color: var(--blanco);
+color: var(--negro);
+width: 130px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+border-radius: 25px;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+}
+.boton--modificacion4:hover{
+    filter: drop-shadow(0px 0px 5px var(--blanco));
+}
+div.card--modificacion4:hover{
+    transition: 0.s;
+    display: inline-block;
+    width: 240px;
+    background-color: var(--blanco);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 5px var(--negro));
+    .icono--modificacion4{
+        padding: 10px 10px 5px 10px;
+        color: var(--blanco);
+        cursor: pointer;
+    }
+    .separador--modificacion4{
+        border: none;
+        height: 1px;
+        background-color: var(--negro);
+    }
+    .imagen--modificacion4{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        filter: drop-shadow(0px 0px 3px var(--negro));
+    }
+    .titulo--modificacion4{
+    padding: 0 10px 10px 10px;
+    color: var(--negro);
+    font-size: 26px;
+    }
+    .texto--modificacion4{
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+    color: var(--negro);
+    }
+    .boton--modificacion4{
+    background-color: var(--negro);
+    transition: 0.5s;
+    margin: 0 100px 10px 10px;
+    color: var(--blanco);
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    .boton--modificacion4:hover{
+    filter: drop-shadow(0px 0px 5px var(--negro));
+    }
+}
+
+div.card{
+    width: 240px;
+    margin-left: 10px;
+}
