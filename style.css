@@ -1,6 +1,7 @@
 @import url(componentes/cards.css);
 @import url(componentes/variables.css);
 @import url(componentes/lista.css);
+@import url(componentes/grupo.css);
 *{
     margin: 0;
     padding: 0;
