@@ -1,0 +1,188 @@
+ul.lista{
+    width: 240px;
+    display: inline-block;
+    border: 1px solid var(--gris);
+    margin: 20px 0 30px 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    font-weight: bold;
+}
+.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid var(--gris);
+}
+.lista__item5{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+
+ul.lista--modificacion1{
+    width: 240px;
+    display: inline-block;
+    border: 1px solid var(--gris);
+    margin: 20px 0 30px 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: var(--azul1);
+}
+.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid var(--gris);
+}
+.lista__item5{
+    padding: 10px;
+    padding-left: 20px;
+}
+.item1--modificacion1:hover{
+    background-color: var(--azul2);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.item5--modificacion1:hover{
+    background-color: var(--azul2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.item2--modificacion1:hover, .item3--modificacion1:hover, .item4--modificacion1:hover{
+    background-color: var(--azul2);
+}
+
+
+
+ul.lista--modificacion2{
+    width: 240px;
+    display: inline-block;
+    border: 1px solid var(--gris);
+    margin: 20px 0 30px 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: var(--azul2);
+}
+.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid var(--gris);
+}
+.lista__item5{
+    padding: 10px;
+    padding-left: 20px;
+}
+.item1--modificacion2:hover{
+    background-color: var(--azul3);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-right: 20px;
+    transition: 0s;
+}
+.item5--modificacion2:hover{
+    background-color: var(--azul3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    padding-right: 20px;
+    transition: 0s;
+}
+.item2--modificacion2:hover, .item3--modificacion2:hover, .item4--modificacion2:hover{
+    background-color: var(--azul3);
+    text-align: center;
+    padding-right: 20px;
+    transition: 0s;
+}
+
+
+
+ul.lista--modificacion3{
+    width: 240px;
+    display: inline-block;
+    border: 1px solid var(--gris);
+    margin: 20px 0 30px 10px;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: var(--azul1);
+    text-align: center;
+}
+.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid var(--gris);
+}
+.lista__item5{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul.lista--modificacion3:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: var(--blanco);
+    border: none;
+    transition: 1s;
+}
+.item1--modificacion3:hover{
+    background-color: var(--azul3);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.item5--modificacion3:hover{
+    background-color: var(--azul3);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.item2--modificacion3:hover, .item3--modificacion3:hover, .item4--modificacion3:hover{
+    background-color: var(--azul3);
+}
+
+
+
+ul.lista--modificacion4{
+    width: 240px;
+    display: inline-block;
+    margin: 20px 0 30px 10px;
+    border: none;
+    border-radius: 30px;
+    list-style-type: none;
+    background-color: var(--blanco);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid var(--gris);
+}
+.lista__item5{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul.lista--modificacion4:hover{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color: var(--blanco);
+    transition: 2s;
+}
+.item1--modificacion4:hover{
+    background-color: var(--azul2);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.item5--modificacion4:hover{
+    background-color: var(--azul2);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.item2--modificacion4:hover, .item3--modificacion4:hover, .item4--modificacion4:hover{
+    background-color: var(--azul2);
+}
