@@ -7,19 +7,19 @@ ul.lista{
     list-style-type: none;
     font-weight: bold;
 }
-.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+.lista__item:not(:last-of-type){
     padding: 10px;
     padding-left: 20px;
     border-bottom: 1px solid var(--gris);
 }
-.lista__item5{
+.lista__item:last-of-type{
     padding: 10px;
     padding-left: 20px;
 }
 
 
 
-ul.lista--modificacion1{
+ul.lista--lista_celeste{
     width: 240px;
     display: inline-block;
     border: 1px solid var(--gris);
@@ -28,32 +28,32 @@ ul.lista--modificacion1{
     list-style-type: none;
     background-color: var(--azul1);
 }
-.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+.lista__item:not(:last-of-type){
     padding: 10px;
     padding-left: 20px;
     border-bottom: 1px solid var(--gris);
 }
-.lista__item5{
+.lista__item:last-of-type{
     padding: 10px;
     padding-left: 20px;
 }
-.item1--modificacion1:hover{
+.lista__item--lista_celeste:first-of-type:hover{
     background-color: var(--azul2);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-.item5--modificacion1:hover{
+.lista__item--lista_celeste:last-of-type:hover{
     background-color: var(--azul2);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-.item2--modificacion1:hover, .item3--modificacion1:hover, .item4--modificacion1:hover{
+.lista__item--lista_celeste:not(:first-of-type, :last-of-type):hover{
     background-color: var(--azul2);
 }
 
 
 
-ul.lista--modificacion2{
+ul.lista--lista_azul{
     width: 240px;
     display: inline-block;
     border: 1px solid var(--gris);
@@ -62,16 +62,19 @@ ul.lista--modificacion2{
     list-style-type: none;
     background-color: var(--azul2);
 }
-.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+.lista__item:not(:last-of-type){
     padding: 10px;
     padding-left: 20px;
     border-bottom: 1px solid var(--gris);
 }
-.lista__item5{
+.lista__item:last-of-type{
     padding: 10px;
     padding-left: 20px;
 }
-.item1--modificacion2:hover{
+.lista__item--lista_azul{
+  text-align: left;
+}
+.lista__item--lista_azul:first-of-type:hover{
     background-color: var(--azul3);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -79,7 +82,7 @@ ul.lista--modificacion2{
     padding-right: 20px;
     transition: 0s;
 }
-.item5--modificacion2:hover{
+.lista__item--lista_azul:last-of-type:hover{
     background-color: var(--azul3);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -87,7 +90,7 @@ ul.lista--modificacion2{
     padding-right: 20px;
     transition: 0s;
 }
-.item2--modificacion2:hover, .item3--modificacion2:hover, .item4--modificacion2:hover{
+.lista__item--lista_azul:not(:last-of-type):hover{
     background-color: var(--azul3);
     text-align: center;
     padding-right: 20px;
@@ -96,7 +99,7 @@ ul.lista--modificacion2{
 
 
 
-ul.lista--modificacion3{
+ul.lista--to_small{
     width: 240px;
     display: inline-block;
     border: 1px solid var(--gris);
@@ -106,18 +109,18 @@ ul.lista--modificacion3{
     background-color: var(--azul1);
     text-align: center;
 }
-.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+.lista__item:not(:last-of-type){
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 1px solid var(--gris);
 }
-.lista__item5{
+.lista__item:last-of-type{
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
-ul.lista--modificacion3:hover{
+ul.lista--to_small:hover{
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -125,24 +128,25 @@ ul.lista--modificacion3:hover{
     border: none;
     transition: 1s;
 }
-.item1--modificacion3:hover{
+.lista__item--to_small:hover{
+    background-color: var(--azul3);
+}
+.lista__item--to_small:first-of-type:hover{
     background-color: var(--azul3);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 
 }
-.item5--modificacion3:hover{
+.lista__item--to_small:last-of-type:hover{
     background-color: var(--azul3);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-.item2--modificacion3:hover, .item3--modificacion3:hover, .item4--modificacion3:hover{
-    background-color: var(--azul3);
-}
 
 
 
-ul.lista--modificacion4{
+
+ul.lista--to_large{
     width: 240px;
     display: inline-block;
     margin: 20px 0 30px 10px;
@@ -154,35 +158,35 @@ ul.lista--modificacion4{
     padding-left: 20px;
     padding-right: 20px;
 }
-.lista__item1,.lista__item2, .lista__item3, .lista__item4{
+.lista__item:not(:last-of-type){
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 1px solid var(--gris);
 }
-.lista__item5{
+.lista__item:last-of-type{
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
-ul.lista--modificacion4:hover{
+ul.lista--to_large:hover{
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
     background-color: var(--blanco);
     transition: 2s;
 }
-.item1--modificacion4:hover{
+.lista__item--to_large:hover{
+    background-color: var(--azul2);
+}
+.lista__item--to_large:first-of-type:hover{
     background-color: var(--azul2);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 
 }
-.item5--modificacion4:hover{
+.lista__item--to_large:last-of-type:hover{
     background-color: var(--azul2);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-}
-.item2--modificacion4:hover, .item3--modificacion4:hover, .item4--modificacion4:hover{
-    background-color: var(--azul2);
 }

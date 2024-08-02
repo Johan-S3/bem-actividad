@@ -49,7 +49,7 @@ font-weight: bold;
 }
 
 
-div.card--modificacion1{
+div.card--card_negra{
     display: inline-block;
     width: 250px;
     background-color: var(--negro);
@@ -57,34 +57,34 @@ div.card--modificacion1{
     margin-left: 40px;
     border-radius: 25px;
 }
-.icono--modificacion1{
+.card__icono--card_negra{
     padding: 10px 10px 5px 10px;
     color: var(--blanco);
     cursor: pointer;
 }
-.separador--modificacion1{
+.card__separador--card_negra{
     border: none;
     height: 1px;
     background-color: var(--blanco);
 }
-.imagen--modificacion1{
+.card__imagen--card_negra{
     display: block;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10px;
     filter: drop-shadow(0px 0px 3px var(--blanco));
 }
-.titulo--modificacion1{
+.card__titulo--card_negra{
 padding: 0 10px 10px 10px;
 color: var(--blanco);
 font-size: 26px;
 }
-.texto--modificacion1{
+.card__texto--card_negra{
 padding: 0 10px 10px 10px;
 font-size: 16px;
 color: var(--blanco);
 }
-.boton--modificacion1{
+.card__boton--card_negra{
 margin: 0 10px 10px 100px;
 background-color: var(--blanco);
 width: 130px;
@@ -96,12 +96,12 @@ display: inline-block;
 cursor: pointer;
 font-weight: bold;
 }
-.boton--modificacion1:hover{
+.card__boton--card_negra:hover{
     filter: drop-shadow(0px 0px 5px var(--blanco));
 }
 
 
-div.card--modificacion2{
+div.card--card_blanca{
     display: inline-block;
     width: 250px;
     background-color: var(--blanco);
@@ -110,34 +110,34 @@ div.card--modificacion2{
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-.icono--modificacion2{
+.card__icono--card_blanca{
     padding: 10px 10px 5px 10px;
     color: var(--negro);
     cursor: pointer;
 }
-.separador--modificacion2{
+.card__separador--card_blanca{
     border: none;
     height: 1px;
     background-color: var(--negro);
 }
-.imagen--modificacion2{
+.card__imagen--card_blanca{
     display: block;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10px;
     filter: drop-shadow(0px 0px 3px var(--negro));
 }
-.titulo--modificacion2{
+.card__titulo--card_blanca{
 padding: 0 10px 10px 10px;
 color: var(--negro);
 font-size: 26px;
 }
-.texto--modificacion2{
+.card__texto--card_blanca{
 padding: 0 10px 10px 10px;
 font-size: 16px;
 color: var(--negro);
 }
-.boton--modificacion2{
+.card__boton--card_blanca{
 margin: 0 10px 10px 100px;
 background-color: var(--negro);
 color: var(--blanco);
@@ -150,12 +150,12 @@ display: inline-block;
 cursor: pointer;
 font-weight: bold;
 }
-.boton--modificacion2:hover{
+.card__boton--card_blanca:hover{
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
 
 
-div.card--modificacion3{
+div.card--light_to_dark{
     display: inline-block;
     width: 250px;
     background-color: var(--blanco);
@@ -164,34 +164,34 @@ div.card--modificacion3{
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-.icono--modificacion3{
+.card__icono--light_to_dark{
     padding: 10px 10px 5px 10px;
     color: var(--negro);
     cursor: pointer;
 }
-.separador--modificacion3{
+.card__separador--light_to_dark{
     border: none;
     height: 1px;
     background-color: var(--negro);
 }
-.imagen--modificacion3{
+.card__imagen--light_to_dark{
     display: block;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10px;
     filter: drop-shadow(0px 0px 3px var(--negro));
 }
-.titulo--modificacion3{
+.card__titulo--light_to_dark{
 padding: 0 10px 10px 10px;
 color: var(--negro);
 font-size: 26px;
 }
-.texto--modificacion3{
+.card__texto--light_to_dark{
 padding: 0 10px 10px 10px;
 font-size: 16px;
 color: var(--negro);
 }
-.boton--modificacion3{
+.card__boton--light_to_dark{
 margin: 0 10px 10px 100px;
 background-color: var(--negro);
 color: var(--blanco);
@@ -204,10 +204,10 @@ display: inline-block;
 cursor: pointer;
 font-weight: bold;
 }
-.boton--modificacion3:hover{
+.card__boton--light_to_dark:hover{
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-div.card--modificacion3:hover{
+div.card--light_to_dark:hover{
     transition: 0.s;
     display: inline-block;
     width: 240px;
@@ -216,34 +216,34 @@ div.card--modificacion3:hover{
     margin-left: 10px;
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
-    .icono--modificacion3{
+    .card__icono--light_to_dark{
         padding: 10px 10px 5px 10px;
         color: var(--blanco);
         cursor: pointer;
     }
-    .separador--modificacion3{
+    .card__separador--light_to_dark{
         border: none;
         height: 1px;
         background-color: var(--blanco);
     }
-    .imagen--modificacion3{
+    .card__imagen--light_to_dark{
         display: block;
         width: 75%;
         margin: 0 auto;
         padding-bottom: 10px;
         filter: drop-shadow(0px 0px 3px var(--blanco));
     }
-    .titulo--modificacion3{
+    .card__titulo--light_to_dark{
     padding: 0 10px 10px 10px;
     color: var(--blanco);
     font-size: 26px;
     }
-    .texto--modificacion3{
+    .card__texto--light_to_dark{
     padding: 0 10px 10px 10px;
     font-size: 16px;
     color: var(--blanco);
     }
-    .boton--modificacion3{
+    .card__boton--light_to_dark{
     background-color: var(--blanco);
     transition: 0.5s;
     margin: 0 100px 10px 10px;
@@ -257,13 +257,13 @@ div.card--modificacion3:hover{
     cursor: pointer;
     font-weight: bold;
     }
-    .boton--modificacion3:hover{
+    .card__boton--light_to_dark:hover{
         filter: drop-shadow(0px 0px 5px var(--blanco));
     }
 }
 
 
-div.card--modificacion4{
+div.card--dark_to_light{
     display: inline-block;
     width: 250px;
     background-color: var(--negro);
@@ -272,34 +272,34 @@ div.card--modificacion4{
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-.icono--modificacion4{
+.card__icono--dark_to_light{
     padding: 10px 10px 5px 10px;
     color: var(--blanco);
     cursor: pointer;
 }
-.separador--modificacion4{
+.card__separador--dark_to_light{
     border: none;
     height: 1px;
     background-color: var(--blanco);
 }
-.imagen--modificacion4{
+.card__imagen--dark_to_light{
     display: block;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10px;
     filter: drop-shadow(0px 0px 3px var(--blanco));
 }
-.titulo--modificacion4{
+.card__titulo--dark_to_light{
 padding: 0 10px 10px 10px;
 color: var(--blanco);
 font-size: 26px;
 }
-.texto--modificacion4{
+.card__texto--dark_to_light{
 padding: 0 10px 10px 10px;
 font-size: 16px;
 color: var(--blanco);
 }
-.boton--modificacion4{
+.card__boton--dark_to_light{
 margin: 0 10px 10px 100px;
 background-color: var(--blanco);
 color: var(--negro);
@@ -312,10 +312,10 @@ display: inline-block;
 cursor: pointer;
 font-weight: bold;
 }
-.boton--modificacion4:hover{
+.card__boton--dark_to_light:hover{
     filter: drop-shadow(0px 0px 5px var(--blanco));
 }
-div.card--modificacion4:hover{
+div.card--dark_to_light:hover{
     transition: 0.s;
     display: inline-block;
     width: 240px;
@@ -324,34 +324,34 @@ div.card--modificacion4:hover{
     margin-left: 10px;
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
-    .icono--modificacion4{
+    .card__icono--dark_to_light{
         padding: 10px 10px 5px 10px;
         color: var(--blanco);
         cursor: pointer;
     }
-    .separador--modificacion4{
+    .card__separador--dark_to_light{
         border: none;
         height: 1px;
         background-color: var(--negro);
     }
-    .imagen--modificacion4{
+    .card__imagen--dark_to_light{
         display: block;
         width: 75%;
         margin: 0 auto;
         padding-bottom: 10px;
         filter: drop-shadow(0px 0px 3px var(--negro));
     }
-    .titulo--modificacion4{
+    .card__titulo--dark_to_light{
     padding: 0 10px 10px 10px;
     color: var(--negro);
     font-size: 26px;
     }
-    .texto--modificacion4{
+    .card__texto--dark_to_light{
     padding: 0 10px 10px 10px;
     font-size: 16px;
     color: var(--negro);
     }
-    .boton--modificacion4{
+    .card__boton--dark_to_light{
     background-color: var(--negro);
     transition: 0.5s;
     margin: 0 100px 10px 10px;
@@ -365,7 +365,7 @@ div.card--modificacion4:hover{
     cursor: pointer;
     font-weight: bold;
     }
-    .boton--modificacion4:hover{
+    .card__boton--dark_to_light:hover{
     filter: drop-shadow(0px 0px 5px var(--negro));
     }
 }

@@ -12,70 +12,70 @@ div.acordeones{
     margin-bottom: 10px;
 }
 
-.acordeones--modificacion1{
+.acordeones--acordeon_negro{
     background-color: var(--negro);
     color: var(--blanco);
 }
-.acordeon--modificacion1{
+.acordeon--acordeon_negro{
     border: 1px solid var(--blanco);
     padding: 10px;
 }
 
-.acordeones--modificacion2{
+.acordeones--acordeon_redondeado_negro{
     background-color: var(--negro);
     color: var(--blanco);
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-.acordeon--modificacion2{
+.acordeon--acordeon_redondeado_negro{
     border: 1px solid var(--blanco);
     padding: 10px;
     border-radius: 25px;
 }
-.acordeon--modificacion2:hover{
+.acordeon--acordeon_redondeado_negro:hover{
     background-color: var(--blanco);
     color: var(--negro);
     transition: 0.5s;
     cursor: pointer;
 }
 
-.acordeones--modificacion3{
+.acordeones--acordeon_redondeado_blanco{
     background-color: var(--blanco);
     color: var(--negro);
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
 }
-.acordeon--modificacion3{
+.acordeon--acordeon_redondeado_blanco{
     border: 1px solid var(--negro);
     padding: 10px;
     border-radius: 25px;
     transition: 1s;
 }
-.acordeon--modificacion3:hover{
+.acordeon--acordeon_redondeado_blanco:hover{
     background-color: var(--blanco);
     color: var(--negro);
     transition: 0.5s;
     cursor: pointer;
 }
-.content--modificacion3{
+.acordeon__content--acordeon_redondeado_blanco{
     border-top: 1px solid var(--negro);
     margin-top: 5px;
     padding-top: 5px;
     transition: 3s;
 }
-.acordeones--modificacion3:hover{
+.acordeones--acordeon_redondeado_blanco:hover{
     background-color: var(--negro);
     color: var(--blanco);
     border-radius: 25px;
     filter: drop-shadow(0px 0px 5px var(--negro));
     transition: 0.5s;
-    .acordeon--modificacion3{
+    .acordeon--acordeon_redondeado_blanco{
         border: 1px solid var(--blanco);
         padding: 10px;
         border-radius: 25px;
         transition: 1s;
     }
-    .acordeon--modificacion3:hover{
+    .acordeon--acordeon_redondeado_blanco:hover{
         background-color: var(--blanco);
         color: var(--negro);
         transition: 0.5s;
@@ -86,17 +86,17 @@ div.acordeones{
     }
 }
 
-div.acordeones--modificacion4{
+div.acordeones--acordeon_expandible{
     width: 150px;
     background-color: var(--negro);
     color: var(--blanco);
     border-radius: 25px;
 }
-div.acordeones--modificacion4:hover{
+div.acordeones--acordeon_expandible:hover{
     transition: 1.5s;
     width: 300px;
     border-radius: 0;
-    .title--modificacion4{
+    .acordeon__title--acordeon_expandible{
         text-align: center;
         margin-left: 40px;
         margin-right: 40px;
@@ -104,7 +104,7 @@ div.acordeones--modificacion4:hover{
         border-radius: 15px;
         padding: 10px;
     }
-    .title--modificacion4:hover{
+    .acordeon__title--acordeon_expandible:hover{
         margin-left: 0px;
         margin-right: 0px;
         transition: 1s;
